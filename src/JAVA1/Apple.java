@@ -45,6 +45,78 @@ public class Apple {
 		double ctrl = 3.3d;
 		
 		
+		int[] arr = {1 , 2, 3, 4};
+		int num = arr[3]; // int num = 4;
+		
+		int[] ar = {1 , 2, 3, 4};
+		int nu = ar[2];
+		
+		String[] arrr = {"a","b","c","d"};
+		String nn = arrr[2];
+		
+		
+		int banana = 10;
+		int pencil = 15;
+		
+		if( (banana + pencil) == 25 ) {System.out.println("hello world");};
+		
+		if ( (banana + pencil + banana + pencil) != 50 ) {System.out.println("phone");}
+		
+		if ( banana < pencil) {
+			System.out.println("15가 10보다 큽니다");
+		} else if (banana > pencil) {
+			System.out.println("아무내용도 출력되지 않습니다.");
+		}
+		else if (banana != pencil) {
+			System.out.println("10이랑 15는 다릅니다.");
+		}
+		
+		
+		int num1 = 20;
+		int num2 = 10;
+		
+		
+		if (num1 != num2) {
+			num1 += num2;
+			num1 *= num2;
+			num1 /= num2;
+		}
+		
+		
+		
+		int result = 0;
+		
+		
+		result = num1 + num2;
+		
+		num1 = num1 + num2;
+		num1 += num2;
+		
+		num1 = num1 - num2;
+		num1 -= num2;
+		
+		num1 = num1 * num2;
+		num1 *= num2;
+		
+		num1 = num2 / num2; 
+		num1 /= num2;
+		
+		
+		// 나누기
+		// / : 나눈 값의 몫만
+		// % : 나눈 값의 나머지만
+		
+		
+		System.out.println(result);
+		
+		
+		System.out.println();
+		
+		// sysout -> 시스아웃 
+		// System.out.println();
+		
+		// print("hello")
+		
 	}
 
 }
