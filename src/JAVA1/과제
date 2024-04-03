@@ -1,0 +1,54 @@
+package test;
+
+import java.util.Scanner;
+
+public class java15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char num1 = 'a';
+		char num2 = 'b';
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("}**너의 MBTI를 알려줄게**{");
+		System.out.print("쉬는 시간이 생겼을 때\n"
+				+ "(1) 집에 혼자 있는걸 좋아한다.\n"
+				+ "(2) 나가서 사람들과 어울리는걸 좋아한다.\n");
+		String input = scanner.next();
+
+		if (input.equals("1")) {
+			System.out.println("당신은 'I' 입니다.\n");
+		} else if (input.equals("2")) {
+			System.out.println("당신은 'E' 입니다.\n");
+		}	
+		System.out.print("엘리베이터를 탔을 때\n"
+				+ "(1) 엘리베이터는 이동수단일뿐, 빨리 올라가면 좋겠다.\n"
+				+ "(2) 사고가 나면 어떻게 탈출을 해야 하지?\n");
+		input = scanner.next();
+		if (input.equals("1")) {
+			System.out.println("당신은 'S' 입니다.\n");
+		} else if (input.equals("2")) {
+			System.out.println("당신은 'N' 입니다.\n");
+		}
+		System.out.print("친구가 차사고가 났다고 연락이 왔을 때\n"
+				+ "(1) 보험은 들었어?\n"
+				+ "(2) 다친 데는 없어?\n");
+	
+		input = scanner.next();
+		if (input.equals("1")) {
+		System.out.println("당신은 'T' 입니다\n");
+		} else if (input.equals("2")) {
+		System.out.println("당신은 'F' 입니다\n");
+		}
+		System.out.print("친구들과 함께 간 여행, 숙소에 도착후 짐을 풀고 나가자! 했을때 어디 갈거냐는 친구의 물음에 당신은?\n"
+				+ "(1) 내가 검색해 볼게.\n"
+				+ "(2) 일단 나가서 생각해보자!\n");
+		
+		input = scanner.next();
+		if (input.equals("1")) {
+			System.out.println("당신은 'J' 입니다\n");
+		} else if (input.equals("2")) {
+			System.out.println("당신은 'P' 입니다\n");
+		}
+	}
+}
